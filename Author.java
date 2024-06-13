@@ -1,5 +1,5 @@
 public class Author  {
-    private String firstName;
+    private String firstName;//privatee
     private String lastName;
     public Author (String firstName,String lastName) {//метод
         this.firstName = firstName;

@@ -1,6 +1,6 @@
 import java.awt.print.Book;
 public class book {
-    private String name;
+    private String name;//privatee
     private String Author;
     private int year;
     public book(String name, String Author, int year) {
