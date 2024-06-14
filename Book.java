@@ -6,7 +6,6 @@ public class Book {
         this.name = name;
         this.author = author;
         this.year = year;
-        //  Book BOOK = new Book ("Car","Ivan Ivanov", 2000 );
     }
     public String getName() {
         return this.name;
