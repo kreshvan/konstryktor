@@ -1,7 +1,7 @@
 public class Author  {
-    private String firstName;//privatee
+    private String firstName;
     private String lastName;
-    public Author (String firstName,String lastName) {//метод
+    public Author (String firstName,String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
         Author author = new Author("Ivan", "ivanov");//метод Author переменная author = равна новому вварианту метода
