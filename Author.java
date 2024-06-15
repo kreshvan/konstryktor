@@ -4,8 +4,7 @@ public class Author  {
     public Author (String firstName,String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
-        Author author = new Author("Ivan", "ivanov");// метод Author переменная author = равна новому вварианту метода
-        // где происходит смена переменных firstName и lastName на ту котолрая будет использоваться в программе ()
+        Author author1 = new Author("Ivan", "ivanov");
     }
         public  String getFirstName (){
     return this.firstName;

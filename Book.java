@@ -1,8 +1,8 @@
 public class Book {
-    private String name;
-    private Author author;
+    String name;
+    Author author;
     private int year;
-    public Book(String name, String Author, int year) {
+    public Book(String name, Author author, int year) {
         this.name = name;
         this.author = author;
         this.year = year;
