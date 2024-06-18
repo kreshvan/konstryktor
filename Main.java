@@ -15,10 +15,5 @@ public class Main {
         Author1 author10 = new Author1("Kris", "Kandy");
         System.out.println(author10);
         System.out.println(author0.equals(author10));
-
-
-
-
-
     }
 }

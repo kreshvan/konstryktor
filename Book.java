@@ -27,14 +27,15 @@ public class Book {
     public boolean equals(Object other) {
         if (this == other) {
             return true;
-        }if (other == null || other.getClass() != getClass())
-            return false;
-            Book otherBook = (Book) other;
-            return name.equals(otherBook.name) && author.equals(otherBook.author) && year == otherBook.year;
         }
+        if (other == null || other.getClass() != getClass())
+            return false;
+        Book otherBook = (Book) other;
+        return name.equals(otherBook.name) && author.equals(otherBook.author) && year == otherBook.year;
+    }
     @Override
     public int hashCode() {
-        return java.util.Objects.hash(name,author,year);
+        return java.util.Objects.hash(name, author, year);
     }
 }
 
